@@ -174,7 +174,7 @@ header{
 header.abajo {
 	background: #1f1f1f;
 	padding: 15px 10px;
-    box-shadow: #121212;
+    box-shadow: 0 10px 20px #121212;
 
 }
 header.abajo a{
