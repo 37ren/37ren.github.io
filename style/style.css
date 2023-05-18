@@ -15,7 +15,7 @@
 .body_blog{
 
     margin: 0 auto;
-    max-width: 1200px;
+    
     font-family: Lato;
     background-color: rgb(255, 255, 255);
 
@@ -29,11 +29,15 @@ p{
 
 }
 
+a {
+    text-decoration: none;
+}
 
 /*productos*/
 
 img.producto{
     max-width: 100%;
+    height: auto;
 }
 
 div.container-items{
@@ -44,6 +48,20 @@ div.container-items{
     gap: 20px;
    
 }
+
+@media screen and (max-width: 600px) {
+   
+    div.container-items{
+
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+       
+    }
+   
+}
+
 .item{
 border-radius: 10px;
 background-color: #ffffff;
@@ -104,7 +122,6 @@ overflow: hidden;
 }
 
 
-
 /*------------parrafo------------------*/
 
 h1{
@@ -136,7 +153,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    height: 120px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
