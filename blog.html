@@ -5,54 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <script src="script.js"></script>
     <title>FUMA2</title>
+    
 </head>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("abajo",window.scrollY>0);
+    })
+</script>
 <body class="body_blog">
-    <header>
+    <header class="header-blog">
         <img src="recursos/logo.png" alt="" class="header__logo">
-        <ul class="header__menu">
-            <a href="index.html"<li class="header__menu-item">Home</li></a>
-            <a href="blog.html"<li class="header__menu-item">Blog</li></a>
-            
-        </ul>
+      <nav class="header__menu">  
+		<ul>
+            	<a href="index.html"<li class="header__menu-item">Home</li></a>
+            	<a href="blog.html"<li class="header__menu-item">Tienda</li></a>
+        </nav>
+	
     </header>
 
-    <div class="article_weed1">
-        <img src="recursos/blog/california.jpg" alt="">
-    <div class="cuerpo"><h2>ORANGE CALIFORNIA</h2>
-        
-        <p>Sabor: especiado, dulce, terroso, amaderado, cítrico. Efectos: cerebrales, energéticos, creativos, inspiradores, motivadores, eufóricos, psicodélicos. Aplicaciones terapéuticas: antiinflamatorio, alivio del estrés.</p></div>
+<h1 class="Tienda">Tienda</h1>
+<div class="container-items">
+    <div class="item">
+        <figure>
+            <img class="producto" src="recursos/blog/collar.jpg" alt="producto">
+        </figure>
+        <div class="info-producto">
+            <h2>Collar</h2>
+            <pc class="price">60 euros</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img class="producto" src="recursos/blog/anillo.jpg" alt="producto">
+        </figure>
+        <div class="info-producto">
+            <h2>Anillo Nike</h2>
+            <pc class="price">60 euros</p>
+            <button>Añadir al carrito</button>
+        </div>  
+    </div>
+
+    <div class="item">
+        <figure>
+            <img class="producto" src="recursos/blog/anillo2.jpg" alt="producto">
+        </figure>
+        <div class="info-producto">
+            <h2>anillo nike</h2>
+            <pc class="price">60 euros</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img class="producto" src="recursos/blog/pendientes.jpg" alt="producto">
+        </figure>
+        <div class="info-producto">
+            <h2>pendientes nike</h2>
+            <pc class="price">60 euros</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img class="producto" src="recursos/blog/anillo3.jpg" alt="producto">
+        </figure>
+        <div class="info-producto">
+            <h2>anillo nike palata</h2>
+            <pc class="price">60 euros</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img class="producto" src="recursos/blog/anillo4.jpg" alt="producto">
+        </figure>
+        <div class="info-producto">
+            <h2>anillo nike dorado</h2>
+            <pc class="price">60 euros</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </div>
+</div>
+
+
    
-    
-    </div>
 
-    <div class="article_weed2">
-        <img src="recursos/blog/Critical.jpg" alt="">
-    <div class="cuerpo"><h2>CRITICAL</h2>
-        
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore harum tempore, temporibus tenetur ullam, dicta possimus consequuntur dolore natus eos veniam quis iste asperiores officiis quas quidem quod earum omnis.</p></div>
-    </div>
-    
-    <div class="article_weed1">
-        <img src="recursos/blog/bandeja.jpg" alt="">
-    <div class="cuerpo"><h2>CALIFORNIA HAZE</h2>
-        
-        <p>Sabor: especiado, dulce, terroso, amaderado, cítrico. Efectos: cerebrales, energéticos, creativos, inspiradores, motivadores, eufóricos, psicodélicos. Aplicaciones terapéuticas: antiinflamatorio, alivio del estrés.</p></div>
-    </div>
 
-    <div class="article_weed2">
-        <img src="recursos/blog/grinder.jpg" alt="">
-    <div class="cuerpo"><h2>CALIFORNIA HAZE</h2>
-        
-        <p>Sabor: especiado, dulce, terroso, amaderado, cítrico. Efectos: cerebrales, energéticos, creativos, inspiradores, motivadores, eufóricos, psicodélicos. Aplicaciones terapéuticas: antiinflamatorio, alivio del estrés.</p></div>
-    </div>
-    
-    <div class="article_weed1">
-        <img src="recursos/blog/california.jpg" alt="">
-    <div class="cuerpo"><h2>CALIFORNIA HAZE</h2>
-        
-        <p>Sabor: especiado, dulce, terroso, amaderado, cítrico. Efectos: cerebrales, energéticos, creativos, inspiradores, motivadores, eufóricos, psicodélicos. Aplicaciones terapéuticas: antiinflamatorio, alivio del estrés.</p></div>
-    </div>
+
+
 
 
 </body>

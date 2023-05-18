@@ -1,0 +1,15 @@
+// Función para aplicar el cambio de color de fondo del menú
+function cambiarColorDeFondo() {
+  header = document.getElementById("menu");
+
+  if (window.pageYOffset > 0) {
+    // Cuando el usuario ha hecho scroll hacia abajo
+    menu.style.backgroundColor = "#FF0000";
+  } else {
+    // Cuando el usuario está en la parte superior de la página
+    menu.style.backgroundColor = "transparent";
+  }
+}
+
+// Evento de scroll
+window.addEventListener("scroll", cambiarColorDeFondo);
