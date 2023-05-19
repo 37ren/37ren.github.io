@@ -168,6 +168,11 @@ h1{
 
     padding-top: 150px;
     font-size: 50px;
+    color: #ffffff;
+}
+.tienda h1{
+
+    color: #121212;
 }
 
 h2{
@@ -252,11 +257,11 @@ header.abajo a{
 }
 header.abajo img{
 
-    color: #000000;
+    color: #ffffff;
 }
 .header-blog a{
 
-color: #000000;
+color: #ffffff;
 
 }
 
